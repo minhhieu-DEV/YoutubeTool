@@ -1,0 +1,139 @@
+E:\YoutobeTool\YoutobeTool\YoutobeTool\bin\x64\Debug\net8.0-windows10.0.19041.0\App.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\ChatGPTPage.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\ImagePage.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\KeyPage.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\MainView.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\MusicPage.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\VideoPage.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\bin\x64\Debug\net8.0-windows10.0.19041.0\Assets\YoutobeTool.ico
+E:\YoutobeTool\YoutobeTool\YoutobeTool\bin\x64\Debug\net8.0-windows10.0.19041.0\Assets\YoutubeTool.png
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22621.0\Redist\Debug\x64\ucrtbased.dll
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\LargeTile.scale-100.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\LargeTile.scale-125.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\LargeTile.scale-150.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\LargeTile.scale-200.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\LargeTile.scale-400.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\SmallTile.scale-100.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\SmallTile.scale-125.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\SmallTile.scale-150.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\SmallTile.scale-200.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\SmallTile.scale-400.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\SplashScreen.scale-100.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\SplashScreen.scale-125.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\SplashScreen.scale-150.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\SplashScreen.scale-200.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\LockScreenLogo.scale-200.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\SplashScreen.scale-400.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square150x150Logo.scale-100.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square150x150Logo.scale-125.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square150x150Logo.scale-150.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square150x150Logo.scale-200.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square150x150Logo.scale-400.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.altform-unplated_targetsize-16.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.altform-unplated_targetsize-256.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.altform-unplated_targetsize-32.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.altform-unplated_targetsize-48.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.scale-100.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.scale-125.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.scale-150.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.scale-200.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.scale-400.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.targetsize-16.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.targetsize-24.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.targetsize-256.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.targetsize-32.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Square44x44Logo.targetsize-48.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\StoreLogo.scale-100.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\StoreLogo.scale-125.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\StoreLogo.scale-150.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\StoreLogo.scale-200.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\StoreLogo.scale-400.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Wide310x150Logo.scale-100.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Wide310x150Logo.scale-125.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Wide310x150Logo.scale-150.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Wide310x150Logo.scale-200.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\Images\Wide310x150Logo.scale-400.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool (Package)\bin\x64\Debug\resources.pri
+C:\Users\Vo Minh Hieu\.nuget\packages\colorcode.core\2.0.13\lib\netstandard1.4\ColorCode.Core.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\colorcode.winui\2.0.13\lib\net5.0-windows10.0.18362\ColorCode.WinUI.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.common\7.1.2\lib\net5.0\CommunityToolkit.Common.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.core\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Core.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.datagrid\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.DataGrid.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.input\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Input.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.layout\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Layout.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.markdown\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Markdown.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.media\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Media.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.primitives\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Primitives.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.graphics.win2d\1.0.0.30\lib\net5.0-windows10.0.18362.0\Microsoft.Graphics.Canvas.Interop.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Management.Deployment.Projection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\naudio\2.2.1\lib\net6.0-windows7.0\NAudio.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\naudio.asio\2.2.1\lib\netstandard2.0\NAudio.Asio.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\naudio.core\2.2.1\lib\netstandard2.0\NAudio.Core.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\naudio.midi\2.2.1\lib\netstandard2.0\NAudio.Midi.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\naudio.wasapi\2.2.1\lib\netstandard2.0\NAudio.Wasapi.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\naudio.winforms\2.2.1\lib\netcoreapp3.1\NAudio.WinForms.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\naudio.winmm\2.2.1\lib\netstandard2.0\NAudio.WinMM.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.graphics.win2d\1.0.0.30\runtimes\win10-arm64\native\Microsoft.Graphics.Canvas.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.graphics.win2d\1.0.0.30\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.graphics.win2d\1.0.0.30\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\Vo Minh Hieu\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\WinRT.Runtime.dll
+E:\YoutobeTool\YoutobeTool\YoutobeTool\bin\x64\Debug\net8.0-windows10.0.19041.0\YoutobeTool.deps.json
+E:\YoutobeTool\YoutobeTool\YoutobeTool\obj\x64\Debug\net8.0-windows10.0.19041.0\App.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\ChatGPTPage.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\ImagePage.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\KeyPage.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\MainView.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\MusicPage.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\VideoPage.xbf
+E:\YoutobeTool\YoutobeTool\YoutobeTool\Assets\YoutobeTool.ico
+E:\YoutobeTool\YoutobeTool\YoutobeTool\Assets\YoutubeTool.png
+E:\YoutobeTool\YoutobeTool\YoutobeTool\obj\x64\Debug\net8.0-windows10.0.19041.0\apphost.exe
+C:\Users\Vo Minh Hieu\.nuget\packages\colorcode.core\2.0.13\lib\netstandard1.4\ColorCode.Core.pdb
+C:\Users\Vo Minh Hieu\.nuget\packages\colorcode.winui\2.0.13\lib\net5.0-windows10.0.18362\ColorCode.WinUI.pdb
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.common\7.1.2\lib\net5.0\CommunityToolkit.Common.pdb
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.pdb
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.pdb
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.pdb
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.core\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Core.pdb
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.datagrid\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.DataGrid.pdb
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.input\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Input.pdb
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.layout\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Layout.pdb
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.markdown\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Markdown.pdb
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.media\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Media.pdb
+C:\Users\Vo Minh Hieu\.nuget\packages\communitytoolkit.winui.ui.controls.primitives\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Primitives.pdb
+E:\YoutobeTool\YoutobeTool\YoutobeTool\bin\x64\Debug\net8.0-windows10.0.19041.0\YoutobeTool.runtimeconfig.json
+E:\YoutobeTool\YoutobeTool\YoutobeTool\bin\x64\Debug\net8.0-windows10.0.19041.0\YoutobeTool.dll
+E:\YoutobeTool\YoutobeTool\YoutobeTool\bin\x64\Debug\net8.0-windows10.0.19041.0\YoutobeTool.pdb

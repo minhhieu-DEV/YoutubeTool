@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="YoutobeTool.Views.KeyPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:YoutobeTool.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" RowSpacing="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="32"/>
+            <RowDefinition Height="32"/>
+            <RowDefinition Height="32"/>
+            <RowDefinition Height="32"/>
+            <RowDefinition Height="32"/>
+        </Grid.RowDefinitions>
+        <InfoBar
+            IsOpen="True"
+            Severity="Informational"
+            Title="Cài đặt">
+            <InfoBar.Content>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Padding="10">
+                    <ProgressRing  Width="30" Height="30" IsActive="{Binding IsActive}" />
+                    <TextBlock Text="{Binding Status}" Margin="20,0,0,0" VerticalAlignment="Center"/>
+                </StackPanel>
+            </InfoBar.Content>
+        </InfoBar>
+        <Grid Grid.Row="1" ColumnSpacing="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <Button HorizontalAlignment="Left" Content="Copy đường dẫn chứa voices" Style="{StaticResource AccentButtonStyle}" Command="{Binding CopyPathClicked}"/>
+            <Button HorizontalAlignment="Right" Grid.Column="1" Content="Copy đường dẫn cài đặt" Style="{StaticResource AccentButtonStyle}" Command="{Binding InstallVoicesClicked}"/>
+        </Grid>
+        <TextBox Grid.Row="2" PlaceholderText="Nhập domain..." Text="{Binding Domain,Mode=TwoWay}"/>
+        <TextBox Grid.Row="3" PlaceholderText="Nhập api..." Text="{Binding ApiKey, Mode=TwoWay}"/>
+        <Grid Grid.Row="4" ColumnSpacing="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox MinWidth="300" PlaceholderText="Vui lòng nhập key bản quyền.." Text="{Binding Key, Mode=TwoWay}"/>
+            <Button Grid.Column="1" Content="Kiểm tra key" Command="{Binding CheckKeyClicked}" Style="{StaticResource AccentButtonStyle}"/>
+        </Grid>
+        <Button Content="Lưu data" Style="{StaticResource AccentButtonStyle}" Command="{Binding SaveDataClicked}" HorizontalAlignment="Right" Grid.Row="5"/>
+    </Grid>
+</Page>
