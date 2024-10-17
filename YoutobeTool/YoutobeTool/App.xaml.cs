@@ -40,10 +40,11 @@ namespace YoutobeTool
         {
             services.AddSingleton<IDispatcherService, DispatcherService>();
             services.AddSingleton<IDialogService, DialogService>();
+            services.AddSingleton<KeyViewModel>();
             services.AddSingleton<MusicViewModel>();
             services.AddSingleton<VideoViewModel>();
-            services.AddSingleton<KeyViewModel>();
             services.AddSingleton<ChatGPTViewModel>();
+            services.AddSingleton<ImageViewModel>();
         }
     }
 }

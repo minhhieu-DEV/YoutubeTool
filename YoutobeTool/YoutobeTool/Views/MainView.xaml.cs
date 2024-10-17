@@ -1,5 +1,6 @@
 ﻿using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
+using Windows.Storage;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -16,6 +17,7 @@ namespace YoutobeTool.Views
         public MusicPage MusicPage { get; set; }
         public KeyPage KeyPage { get; set; }
         public ChatGPTPage ChatGPTPage { get; set; }
+        private ApplicationDataContainer localSettings;
 
         public MainView()
         {
@@ -27,8 +29,23 @@ namespace YoutobeTool.Views
             MusicPage = new MusicPage();
             ChatGPTPage = new ChatGPTPage();
             ContentFrame.Navigate(typeof(KeyPage));
+            localSettings = ApplicationData.Current.LocalSettings;
         }
-
+        public void EnableNavigate(bool isCheck)
+        {
+            if (isCheck)
+            {
+                nvchatGPT.IsEnabled = true;
+                nvImage.IsEnabled = true;
+                nvMusic.IsEnabled = true;
+                nvVideo.IsEnabled = true;
+                return;
+            }
+            nvchatGPT.IsEnabled = false;
+            nvImage.IsEnabled = false;
+            nvMusic.IsEnabled = false;
+            nvVideo.IsEnabled = false;
+        }
         private void myNavigationView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
         {
             switch ((string)args.InvokedItemContainer.Tag)

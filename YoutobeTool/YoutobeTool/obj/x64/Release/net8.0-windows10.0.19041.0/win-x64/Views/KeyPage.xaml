@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page
+    x:Class="YoutobeTool.Views.KeyPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:YoutobeTool.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    mc:Ignorable="d">
+
+    <Grid
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        RowSpacing="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="32" />
+            <RowDefinition Height="32" />
+            <RowDefinition Height="32" />
+            <RowDefinition Height="32" />
+            <RowDefinition Height="32" />
+        </Grid.RowDefinitions>
+        <InfoBar
+            Title="Cài đặt"
+            IsOpen="True"
+            Severity="Informational">
+            <InfoBar.Content>
+                <Grid Padding="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="4*" />
+                        <ColumnDefinition Width="4*" />
+                    </Grid.ColumnDefinitions>
+                    <ProgressRing
+                        Width="30"
+                        Height="30"
+                        IsActive="{Binding IsActive}" />
+                    <TextBlock
+                        Grid.Column="1"
+                        Margin="0,5,20,0"
+                        Text="{Binding Status}" />
+                    <Button
+                        Grid.Column="2"
+                        HorizontalAlignment="Right"
+                        Command="{Binding CopyPathClicked}"
+                        Content="Copy đường dẫn"
+                        Style="{StaticResource AccentButtonStyle}" />
+                </Grid>
+            </InfoBar.Content>
+        </InfoBar>
+        <TextBox
+            Grid.Row="1"
+            PlaceholderText="Nhập domain"
+            Text="{Binding Domain, Mode=TwoWay}" />
+        <TextBox
+            Grid.Row="2"
+            PlaceholderText="Nhập api"
+            Text="{Binding ApiKey, Mode=TwoWay}" />
+        <Grid Grid.Row="3" ColumnSpacing="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*" />
+                <ColumnDefinition Width="3*" />
+            </Grid.ColumnDefinitions>
+            <TextBox
+                MinWidth="300"
+                PlaceholderText="Nhập key bản quyền"
+                Text="{Binding Key, Mode=TwoWay}" />
+            <Button
+                Grid.Column="1"
+                Command="{Binding CheckKeyClicked}"
+                Content="Kiểm tra key"
+                Style="{StaticResource AccentButtonStyle}" />
+        </Grid>
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="5*" />
+            </Grid.ColumnDefinitions>
+            <Button
+                MinWidth="200"
+                HorizontalAlignment="Left"
+                Command="{Binding IsCheckChatGPTClicked}"
+                Content="Kiểm tra API"
+                Style="{StaticResource AccentButtonStyle}" />
+            <Button
+                Grid.Column="1"
+                MinWidth="200"
+                HorizontalAlignment="Right"
+                Command="{Binding SaveDataClicked}"
+                Content="Lưu data"
+                Style="{StaticResource AccentButtonStyle}" />
+        </Grid>
+    </Grid>
+</Page>
+

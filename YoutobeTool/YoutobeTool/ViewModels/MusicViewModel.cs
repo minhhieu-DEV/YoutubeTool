@@ -43,6 +43,7 @@ namespace YoutobeTool.ViewModels
         public IAsyncRelayCommand ChooseFolderClicked { get; }
         public IAsyncRelayCommand TestVoiceClicked { get; }
         public IAsyncRelayCommand CreateVoiceClicked { get; }
+        public IAsyncRelayCommand RefreshClicked { get; }
 
         private readonly IDialogService _dialogService;
         private readonly IDispatcherService _dispatcherService;
@@ -52,6 +53,7 @@ namespace YoutobeTool.ViewModels
             ChooseFolderClicked = new AsyncRelayCommand(ChooseFolderAsync);
             TestVoiceClicked = new AsyncRelayCommand(TestVoice);
             CreateVoiceClicked = new AsyncRelayCommand(CreateVoice);
+            RefreshClicked = new AsyncRelayCommand(Refresh);
             MusicModels = new ObservableCollection<MusicModel>();
             Voices = new List<VoiceModel>();
             VoiceItemModels = new ObservableCollection<VoiceItemModel>();
@@ -60,6 +62,11 @@ namespace YoutobeTool.ViewModels
             GetDataVoices();
 
 
+        }
+
+        private async Task Refresh()
+        {
+            await GetDataVoices();
         }
         #endregion
         #region Event
@@ -80,7 +87,7 @@ namespace YoutobeTool.ViewModels
             }
         }
 
-        private async Task GetDataVoices()
+        public async Task GetDataVoices()
         {
             var result = MusicHelper.GetDefaultVoiceAsync();
             if (result != null)
@@ -95,20 +102,24 @@ namespace YoutobeTool.ViewModels
         }
         private void ChangeVoice()
         {
-            if (Voices.Count == 0)
+            try
             {
-                return;
-            }
-            var voiceTam = Voices[VoiceIndex];
-            if (voiceTam != null)
-            {
-                VoiceItemModels.Clear();
-                foreach (var item in voiceTam.VoiceItems)
+                if (Voices.Count == 0)
                 {
-                    VoiceItemModels.Add(item);
+                    return;
                 }
-                VoiceItemIndex = 0;
+                var voiceTam = Voices[VoiceIndex];
+                if (voiceTam != null)
+                {
+                    VoiceItemModels.Clear();
+                    foreach (var item in voiceTam.VoiceItems)
+                    {
+                        VoiceItemModels.Add(item);
+                    }
+                    VoiceItemIndex = 0;
+                }
             }
+            catch { }
         }
 
         private async Task TestVoice()

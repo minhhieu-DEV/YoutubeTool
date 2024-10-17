@@ -1,6 +1,6 @@
 ﻿namespace YoutobeTool.Helpers
 {
-    public class ChatGPTHelper
+    public static class ChatGPTHelper
     {
 
     }

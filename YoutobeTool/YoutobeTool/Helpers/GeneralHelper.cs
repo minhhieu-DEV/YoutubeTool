@@ -1,9 +1,11 @@
-﻿using Newtonsoft.Json;
+﻿using ClosedXML.Excel;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.IO.Compression;
+using System.Linq;
 using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -151,7 +153,7 @@ namespace YoutobeTool.Helpers
                 {
                     if (!string.IsNullOrEmpty(e.Data))
                     {
-                        LoggerHelper.Log(e.Data); // Xử lý đầu ra của lệnh
+                        //LoggerHelper.Log(e.Data); // Xử lý đầu ra của lệnh
                     }
                 };
 
@@ -159,7 +161,7 @@ namespace YoutobeTool.Helpers
                 {
                     if (!string.IsNullOrEmpty(e.Data))
                     {
-                        LoggerHelper.Log("Error: " + e.Data); // Xử lý lỗi (nếu có)
+                        //LoggerHelper.Log("Error: " + e.Data); // Xử lý lỗi (nếu có)
                     }
                 };
 
@@ -178,7 +180,7 @@ namespace YoutobeTool.Helpers
             }
             catch (Exception ex)
             {
-                LoggerHelper.Log($"Lỗi khi chạy tiến trình: {ex.Message}");
+                //LoggerHelper.Log($"Lỗi khi chạy tiến trình: {ex.Message}");
                 tcs.SetResult(false); // Hoàn thành với kết quả thất bại nếu có lỗi
                 return false;
             }
@@ -203,6 +205,89 @@ namespace YoutobeTool.Helpers
                     return default;
                 }
             }
+        }
+
+        public static int GetLastNameImage(IEnumerable<string> listPaths)
+        {
+            int max = 0;
+            foreach (var item in listPaths)
+            {
+                string name = Path.GetFileNameWithoutExtension(item);
+                if (int.TryParse(name, out int number))
+                {
+                    if (number > max)
+                    {
+                        max = number;
+                    }
+                }
+            }
+            return max;
+        }
+        public static async Task<bool> IsCheckKey(string apiKey)
+        {
+            string pathFile = $"{Windows.Storage.ApplicationData.Current.LocalFolder.Path}\\key.xlsx";
+            if (File.Exists(pathFile))
+            {
+                File.Delete(pathFile);
+            }
+            var isDownload = await GeneralHelper.DownloadFileAsync($"{GeneralConstant.Domain}/files/{GeneralConstant.IdKey}?alt=media&key={GeneralConstant.Api}", $"{Windows.Storage.ApplicationData.Current.LocalFolder.Path}\\key.xlsx");
+            if (!isDownload)
+            {
+                return false;
+            }
+            List<ExcelModel> records = new List<ExcelModel>();
+
+            // Đọc file Excel
+            using (var workbook = new XLWorkbook(pathFile))
+            {
+                var worksheet = workbook.Worksheet(1); // Lấy sheet đầu tiên trong file Excel
+                var rows = worksheet.RangeUsed().RowsUsed(); // Lấy tất cả các hàng có dữ liệu
+
+                // Giả sử dòng đầu tiên là header, bắt đầu đọc từ dòng thứ 2
+                foreach (var row in rows.Skip(1))
+                {
+                    var record = new ExcelModel
+                    {
+                        Address = row.Cell(1).GetValue<string>(), // Cột 1
+                        Key = row.Cell(2).GetValue<string>(),     // Cột 2
+                        Name = row.Cell(3).GetValue<string>()     // Cột 3
+                    };
+                    records.Add(record); // Thêm vào danh sách
+                }
+            }
+            File.Delete(pathFile);
+            var result = records.FirstOrDefault(x => x.Key == apiKey);
+            if (result != null && IsCheckDiskSerialNumber(result.Address))
+            {
+                return true;
+            }
+            return false;
+
+        }
+        public static string GetKey()
+        {
+            Process process = new Process();
+            process.StartInfo.FileName = "cmd.exe";
+            process.StartInfo.Arguments = "/C wmic diskdrive get serialnumber";
+            process.StartInfo.RedirectStandardOutput = true;
+            process.StartInfo.UseShellExecute = false;
+            process.StartInfo.CreateNoWindow = true;
+
+            process.Start();
+            string output = process.StandardOutput.ReadToEnd();
+            process.WaitForExit();
+
+            string[] lines = output.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+            if (lines != null || lines.Length > 1)
+            {
+                return lines[1];
+            }
+            return default;
+        }
+        static bool IsCheckDiskSerialNumber(string address)
+        {
+            string key = GetKey();
+            return key.Contains(address);
         }
     }
 }

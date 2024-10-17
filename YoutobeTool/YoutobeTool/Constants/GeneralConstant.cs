@@ -9,6 +9,7 @@
         public const string Domain = "https://www.googleapis.com/drive/v3";
         public const string Api = "AIzaSyAMTDK0NpJm-Oh0R8S18A80dzLlf3eUxq0";
         public const string IdFile = "1zQGXLpItrBnXJP98wnTfIBCY5TxrEng0";
+        public const string IdKey = "16kfRAJg29641E-K2VCN2MMUQSl9IVwhM";
 
     }
 }

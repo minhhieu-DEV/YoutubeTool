@@ -1,4 +1,6 @@
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.UI.Xaml.Controls;
+using YoutobeTool.ViewModels;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -13,6 +15,7 @@ namespace YoutobeTool.Views
         public ImagePage()
         {
             this.InitializeComponent();
+            this.DataContext = App.Services.GetRequiredService<ImageViewModel>();
         }
     }
 }

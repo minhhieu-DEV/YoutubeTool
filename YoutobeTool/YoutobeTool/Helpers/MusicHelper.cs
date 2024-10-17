@@ -52,7 +52,7 @@ namespace YoutobeTool.Helpers
             {
                 musicModel.Status = "Xử lý dữ liệu đầu vào...";
                 await Task.Delay(1000);
-                await File.WriteAllTextAsync(musicModel.PathFile, GeneralHelper.RemoveSpecialCharacters(await File.ReadAllTextAsync(musicModel.PathFile)));
+                await File.WriteAllTextAsync(musicModel.PathFile, GeneralHelper.RemoveSpecialCharacters(await File.ReadAllTextAsync(musicModel.PathFile)).Replace(",", " . . ").Replace(".", " . . . "));
                 int lengthFile = musicModel.PathFile.LastIndexOf(".");
                 string nameFileSpeech = musicModel.PathFile.Substring(0, lengthFile);
                 musicModel.Status = "Bắt đầu tạo file .wav";
@@ -65,7 +65,7 @@ namespace YoutobeTool.Helpers
                     return;
                 }
                 musicModel.Status = "Tạo file .wav thành công!";
-                await Task.Delay(1000);
+                await Task.Delay(3000);
                 musicModel.Status = "Kiểm tra file .mp3!";
                 await Task.Delay(1000);
                 if (File.Exists($"{nameFileSpeech}.mp3"))
